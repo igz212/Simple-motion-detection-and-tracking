@@ -2,7 +2,7 @@
 Simple motion detection and tracking by means of OpenCV. 
 
 
-By means of showing these figures we could understand the process step by step  :) 
+By means of showing extra figures like thresold, blur and dilate we could understand the process of motion detection better; and that would be step by step.  :) 
      Here we use OpenCV to calculate difference of frames one by one. then use Binary threshold to gain
      a gray scale images look like an image of white shadows, which we could gain contours of them.
      so we could draw contours of motion in these frame or use boundingRect to draw a Rectangle around
